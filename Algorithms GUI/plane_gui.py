@@ -70,6 +70,9 @@ class Window:
         self.root.bind("<Escape>", lambda x: self.root.destroy())
 
     def mainloop(self):
+        """
+        This method starts the window's mainloop.
+        """
         self.root.mainloop()
 
     def get_max_x(self):

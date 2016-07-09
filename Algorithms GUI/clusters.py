@@ -11,6 +11,8 @@ class ClusteringClass(metaclass=abc.ABCMeta):
     This class is an abstract base class for implemented and tracking of
     clustering algorithms, any clustering algorithm is to be implemented
     in a class inheriting from this one.
+
+    This class is good for iterative algorithms.
     """
     DEFAULT_X_MIN = 0
     DEFAULT_Y_MIN = 0
@@ -144,6 +146,7 @@ class KMeans(ClusteringClass):
         self.update_mass_centers()
 
     def has_next(self):
+        # TODO some kind of meaningful test in this method.
         return True
 
     def next(self):
@@ -151,7 +154,12 @@ class KMeans(ClusteringClass):
         self.update_cluster_assignment()
 
     def get_mass_centers(self):
+        """
+        :return: List of Tuples (x,y) - The list of the clusters' mass centers, in the index i
+        is the mass center of the cluster i.
+        """
         return self.mass_centers
 
     def end(self):
+        # Nothing to do here in this clustering algorithm.
         pass
