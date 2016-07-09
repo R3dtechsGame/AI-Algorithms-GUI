@@ -126,6 +126,8 @@ class KMeans(ClusteringClass):
                 self.mass_centers.append(plane_space.get_mass_center(self.get_cluster(i)))
             except ZeroDivisionError:
                 print("Lost a cluster!")
+                self.cluster_num -= 1
+                print("--", self.cluster_num, "clusters left!")
 
     def update_vec_cluster_assignment(self, vec_index):
         """
