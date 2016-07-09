@@ -112,9 +112,17 @@ class KMeans(ClusteringClass):
     """
     This class is used to track and activate the clustering algorithm KMeans.
     """
+    IS_CLUSTER_NUM_UPPER_BOUND = True
+
     def __init__(self, list_of_vectors, k):
         super(KMeans, self).__init__(list_of_vectors, k)
         self.mass_centers = []
+
+    def get_random_vector_index(self):
+        """
+        :return: Int - The index of a random vector from the vectors list.
+        """
+        return random.randrange(self.vectors_num)
 
     def update_mass_centers(self):
         """
@@ -125,9 +133,15 @@ class KMeans(ClusteringClass):
             try:
                 self.mass_centers.append(plane_space.get_mass_center(self.get_cluster(i)))
             except ZeroDivisionError:
-                print("Lost a cluster!")
-                self.cluster_num -= 1
-                print("--", self.cluster_num, "clusters left!")
+                if self.IS_CLUSTER_NUM_UPPER_BOUND:
+                    # Indicate the loss of a cluster.
+                    print("Lost a cluster!")
+                    self.cluster_num -= 1
+                    print("--", self.cluster_num, "clusters left!")
+                else:
+                    # "force" some vector into the cluster
+                    self.cluster_assignment[self.get_random_vector_index()] = i
+                    self.mass_centers.append(plane_space.get_mass_center(self.get_cluster(i)))
 
     def update_vec_cluster_assignment(self, vec_index):
         """

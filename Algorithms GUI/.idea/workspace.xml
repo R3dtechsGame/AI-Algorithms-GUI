@@ -14,7 +14,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Algorithms GUI$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1468052496989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/MyGit/AI Algorithms GUI/Algorithms GUI" />
+    <SUITE FILE_PATH="coverage/Algorithms GUI$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1468053532950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/MyGit/AI Algorithms GUI/Algorithms GUI" />
     <SUITE FILE_PATH="coverage/K-Means$main.coverage" NAME="main Coverage Results" MODIFIED="1468050955280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/MyGit/AI Algorithms GUI/K-Means" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -30,7 +30,7 @@
         <entry file="file://$USER_HOME$/MyGit/AI Algorithms GUI/Algorithms GUI/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding>
                 <element signature="e#240#256#0" expanded="true" />
               </folding>
@@ -53,8 +53,8 @@
       <file leaf-file-name="clusters.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/MyGit/AI Algorithms GUI/Algorithms GUI/clusters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32771537">
-              <caret line="129" column="28" selection-start-line="129" selection-start-column="28" selection-end-line="129" selection-end-column="28" />
+            <state vertical-scroll-proportion="2.0767791">
+              <caret line="141" column="58" selection-start-line="141" selection-start-column="58" selection-end-line="141" selection-end-column="58" />
               <folding>
                 <element signature="e#160#178#0" expanded="true" />
               </folding>
@@ -555,7 +555,7 @@
     <entry file="file://$USER_HOME$/MyGit/AI Algorithms GUI/Algorithms GUI/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding>
             <element signature="e#240#256#0" expanded="true" />
           </folding>
@@ -564,8 +564,8 @@
     </entry>
     <entry file="file://$USER_HOME$/MyGit/AI Algorithms GUI/Algorithms GUI/clusters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32771537">
-          <caret line="129" column="28" selection-start-line="129" selection-start-column="28" selection-end-line="129" selection-end-column="28" />
+        <state vertical-scroll-proportion="2.0767791">
+          <caret line="141" column="58" selection-start-line="141" selection-start-column="58" selection-end-line="141" selection-end-column="58" />
           <folding>
             <element signature="e#160#178#0" expanded="true" />
           </folding>
